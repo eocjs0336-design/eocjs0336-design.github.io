@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>양구 문화관광 | 국토정중앙 양구</title>
+    <meta name="description" content="자연, 평화, 예술이 어우러진 힐링 여행지 강원도 양구군의 관광 명소를 소개합니다.">
+    <!-- Google Fonts: Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <div class="brand-group" style="display: flex; align-items: center; gap: 20px;">
+                <a href="#" class="logo">양구 문화관광</a>
+                <div class="weather-widget" id="weather-widget" style="color: var(--white); font-weight: 500; font-size: 0.95rem; background: rgba(255,255,255,0.2); padding: 5px 12px; border-radius: 20px; display: flex; align-items: center; gap: 8px; backdrop-filter: blur(5px);">
+                    <span class="weather-icon" style="font-size: 1.1rem;">☀️</span>
+                    <span class="weather-text">양구 22°C</span>
+                </div>
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">홈</a></li>
+                    <li><a href="#about" class="nav-link">양구소개</a></li>
+                    <li><a href="#video" class="nav-link">홍보영상</a></li>
+                    <li><a href="#attractions" class="nav-link">관광명소</a></li>
+                    <li><a href="#food" class="nav-link">먹거리</a></li>
+                    <li><a href="#map" class="nav-link">관광지도</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="images/yanggu_hero_banner_1779164921522.png" alt="양구 아름다운 자연 풍경" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <button class="hero-subtitle fade-up info-btn" id="info-btn">자연과 평화가 숨쉬는 곳 👆</button>
+            <h1 class="hero-title fade-up delay-1">국토정중앙 <span class="text-highlight">양구</span></h1>
+            <p class="hero-desc fade-up delay-2">한반도의 중심에서 만나는 때묻지 않은 자연 비경과 평화의 발자취를 경험하세요.</p>
+            <a href="#attractions" class="btn btn-primary fade-up delay-3">명소 둘러보기</a>
+        </div>
+    </section>
+
+    <main>
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-title text-center fade-in">
+                    <h2>양구를 만나다</h2>
+                    <p>대한민국의 중심에서 펼쳐지는 특별한 이야기</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card slide-up">
+                        <div class="icon-box">🌿</div>
+                        <h3>청정 자연</h3>
+                        <p>DMZ와 인접하여 수십 년간 보존된 원시림과 계곡 등 천혜의 자연환경을 자랑합니다.</p>
+                    </div>
+                    <div class="about-card slide-up delay-1">
+                        <div class="icon-box">🕊️</div>
+                        <h3>평화의 발자취</h3>
+                        <p>가칠봉 전망대, 펀치볼 둘레길 등 한반도의 평화와 안보를 직접 느낄 수 있는 의미 있는 장소입니다.</p>
+                    </div>
+                    <div class="about-card slide-up delay-2">
+                        <div class="icon-box">🎨</div>
+                        <h3>예술과 문화</h3>
+                        <p>박수근 화백의 얼이 담긴 미술관부터 선사박물관까지 풍부한 문화 예술을 향유할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video section" id="video">
+            <div class="container">
+                <div class="section-title text-center fade-in">
+                    <h2>양구 홍보영상</h2>
+                    <p>생생한 영상으로 양구의 매력을 먼저 만나보세요</p>
+                </div>
+                <div class="video-wrapper fade-up">
+                    <iframe src="https://www.youtube-nocookie.com/embed/LXgbXPQK5Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Attractions Section -->
+        <section class="attractions section bg-light" id="attractions">
+            <div class="container">
+                <div class="section-title text-center fade-in">
+                    <h2>대표 관광명소</h2>
+                    <p>양구에서 놓치면 안 될 아름다운 핫플레이스</p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <!-- Attraction 1 -->
+                    <div class="gallery-item fade-up">
+                        <a href="https://www.ygtour.kr/Home/H70000/placeDetail?place_no=11&viewClass=tour&place_class=P015" target="_blank" class="img-wrapper" style="display: block;">
+                            <img src="images/yanggu_island_1779164935442.png" alt="파로호 한반도섬">
+                            <div class="item-overlay">
+                                <h3>파로호 한반도섬</h3>
+                                <p>물 위에 떠 있는 작은 대한민국</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Attraction 2 -->
+                    <div class="gallery-item fade-up delay-1">
+                        <a href="https://www.ygtour.kr/Home/H70000/placeDetail?place_no=575&viewClass=tour&place_class=P015" target="_blank" class="img-wrapper" style="display: block;">
+                            <img src="images/yanggu_valley_1779164949664.png" alt="두타연">
+                            <div class="item-overlay">
+                                <h3>두타연</h3>
+                                <p>수십 년간 닫혀있던 태고의 신비</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Attraction 3 -->
+                    <div class="gallery-item fade-up delay-2">
+                        <a href="https://www.ygtour.kr/Home/Home/H30000/H30100/placeDetail?place_no=9" target="_blank" class="img-wrapper" style="display: block;">
+                            <img src="images/yanggu_museum_1779164966864.png" alt="박수근미술관">
+                            <div class="item-overlay">
+                                <h3>박수근미술관</h3>
+                                <p>서민의 삶을 그린 거장의 숨결</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Attraction 4 -->
+                    <div class="gallery-item fade-up delay-3">
+                        <a href="https://www.ygtour.kr/Home/H20000/H20200/placeDetail?place_no=8" target="_blank" class="img-wrapper" style="display: block;">
+                            <img src="images/yanggu_observatory_1779164982457.png" alt="국토정중앙천문대">
+                            <div class="item-overlay">
+                                <h3>국토정중앙천문대</h3>
+                                <p>한반도의 배꼽에서 별을 만나다</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action / Food -->
+        <section class="cta section" id="food">
+            <div class="container">
+                <div class="cta-content fade-in text-center">
+                    <h2>양구의 참맛을 느끼다</h2>
+                    <p>건강한 땅에서 자란 양구 시래기와 산채비빔밥으로 여행의 피로를 풀어보세요.</p>
+                    <button class="btn btn-outline" id="restaurant-btn" style="margin-top: 15px;">🍽️ 양구 모범음식점 안내 배너 보기</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map section bg-light" id="map">
+            <div class="container">
+                <div class="section-title text-center fade-in">
+                    <h2>양구 관광 지도 및 9경</h2>
+                    <p>지도 안의 명소 사진을 마우스로 대면 확대되며, 클릭 시 상세 정보가 나옵니다.</p>
+                </div>
+                <div class="map-wrapper fade-up text-center" style="position: relative; display: inline-block; width: 100%; margin-bottom: 30px;">
+                    <img src="map_new.png" alt="양구 관광 지도" style="width: 100%; height: auto; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); display: block;">
+                    
+                    <!-- 9 Spots Hotspots (정확한 좌표 반영 완료) -->
+                    <div class="map-hotspot" style="top: 44.0%; left: 69.3%;" data-name="제1경 양구수목원" data-address="강원특별자치도 양구군 동면 숨골로310번길 132" data-desc="1,000여 종의 식물과 야생화 분재원, 생태 체험관 등이 있는 사계절 숲속 놀이터입니다." data-phone="033-480-2529"></div>
+                    <div class="map-hotspot" style="top: 56.2%; left: 43.8%;" data-name="제2경 한반도섬" data-address="강원특별자치도 양구군 양구읍 파로호로 869" data-desc="파로호 상류에 조성된 한반도 지형의 인공섬으로, 산책로와 짚라인, 수상 레저를 즐길 수 있습니다." data-phone="033-480-2675"></div>
+                    <div class="map-hotspot" style="top: 24.8%; left: 47.4%;" data-name="제3경 두타연" data-address="강원특별자치도 양구군 방산면 고방산리 102" data-desc="민통선 내 위치한 천혜의 원시림과 계곡으로, 평화와 자연이 어우러진 생태 관광지입니다." data-phone="033-480-2675"></div>
+                    <div class="map-hotspot" style="top: 72.5%; left: 35.4%;" data-name="제4경 양구군립박수근미술관" data-address="강원특별자치도 양구군 양구읍 박수근로 265-15" data-desc="국민 화가 박수근 화백을 기리는 미술관으로, 예술적 영감을 주는 문화 공간입니다." data-phone="033-480-7226"></div>
+                    <div class="map-hotspot" style="top: 39.6%; left: 40.6%;" data-name="제5경 양구백자박물관" data-address="강원특별자치도 양구군 방산면 평화로 5182" data-desc="양구 백자의 역사와 문화를 체험하고 관람할 수 있는 도자 문화의 중심지입니다." data-phone="033-480-2664"></div>
+                    <div class="map-hotspot" style="top: 13.6%; left: 80.6%;" data-name="제6경 펀치볼" data-address="강원특별자치도 양구군 해안면 일대" data-desc="해안면의 독특한 분지 지형으로, DMZ 펀치볼 둘레길과 안보 관광 자원이 유명합니다." data-phone="033-480-2675"></div>
+                    <div class="map-hotspot" style="top: 85.9%; left: 51.0%;" data-name="제7경 양구봉화산" data-address="강원특별자치도 양구군 국토정중앙면 구암리" data-desc="일출과 운해가 아름답기로 유명하며, 많은 등산객이 찾는 자연 명소입니다." data-phone="033-480-2229"></div>
+                    <div class="map-hotspot" style="top: 60.2%; left: 20.6%;" data-name="제8경 상무룡출렁다리" data-address="강원특별자치도 양구군 양구읍 상무룡리" data-desc="파로호를 가로지르는 335m 길이의 보행 현수교로, 아름다운 호수 풍경을 감상할 수 있습니다." data-phone="033-480-2229"></div>
+                    <div class="map-hotspot" style="top: 50.7%; left: 67.8%;" data-name="제9경 광치계곡" data-address="강원특별자치도 양구군 국토정중앙면 가오작리" data-desc="대암산 줄기의 깊은 계곡으로, 여름철 피서지 및 단풍 명소로 인기가 높습니다." data-phone="033-480-2675"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>양구 문화관광</h3>
+                    <p>자연, 평화, 예술이 어우러진 강원도 양구</p>
+                </div>
+                <div class="footer-col">
+                    <h4>문의전화</h4>
+                    <p>양구군 관광안내소: 033-480-2675<br>
+                    양구군청 문화관광과: 033-480-2229</p>
+                </div>
+                <div class="footer-col">
+                    <h4>바로가기</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.ygtour.kr/Home/H40000/H40400/placeList?curationGroup=5&place_class=P010&viewClass=room" target="_blank">숙박 안내</a></li>
+                        <li><a href="https://www.yanggu.go.kr/user_sub?gfnc=www&mu_idx=284" target="_blank">교통 정보</a></li>
+                        <li><a href="https://ygcf.or.kr/Festival/F30000/index" target="_blank">축제 안내</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Yanggu-gun. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Info Modal -->
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <h2>자연과 평화가 숨쉬는 곳, 양구</h2>
+            <p>양구군은 대한민국의 국토정중앙에 위치하고 있으며, 오랜 세월 민간인 통제선으로 인해 때묻지 않은 천혜의 자연환경을 그대로 간직하고 있습니다. 펀치볼, 두타연 등 아름다운 자연경관과 평화의 소중함을 느낄 수 있는 특별한 여행지입니다.</p>
+        </div>
+    </div>
+
+    <!-- Restaurant Modal -->
+    <div id="restaurant-modal" class="modal">
+        <div class="modal-content" style="max-width: 800px; max-height: 90vh;">
+            <span class="close-btn" id="close-restaurant-modal">&times;</span>
+            <h2>양구 모범음식점 안내</h2>
+            <p style="margin-bottom: 20px;">양구군이 추천하는 안심하고 드실 수 있는 맛집 모범음식점입니다.</p>
+            <div class="table-container" style="max-height: 60vh; overflow-y: auto; border-bottom: 1px solid #ddd; border-radius: 5px;">
+                <table class="restaurant-table" style="margin-top: 0;">
+                    <thead>
+                    <tr>
+                        <th>순번</th>
+                        <th>업소명</th>
+                        <th>전화번호</th>
+                        <th>주소</th>
+                        <th>주메뉴</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>감람원</td><td>033-481-6788</td><td>양구읍</td><td>삼계탕</td></tr>
+                    <tr><td>2</td><td>광치막국수</td><td>033-481-4095</td><td>국토정중앙면</td><td>막국수</td></tr>
+                    <tr><td>3</td><td>꽃보다 소 양구점</td><td>033-482-3175</td><td>양구읍</td><td>숯불구이</td></tr>
+                    <tr><td>4</td><td>도촌삼계탕</td><td>033-482-1002</td><td>양구읍</td><td>삼계탕</td></tr>
+                    <tr><td>5</td><td>도촌막국수식당</td><td>033-481-4627</td><td>국토정중앙면</td><td>막국수</td></tr>
+                    <tr><td>6</td><td>돈 갈비</td><td>033-482-9289</td><td>양구읍</td><td>숯불구이</td></tr>
+                    <tr><td>7</td><td>모범떡볶이</td><td>033-481-9827</td><td>양구읍</td><td>떡볶이</td></tr>
+                    <tr><td>8</td><td>비비큐·우쿠야</td><td>033-481-1318</td><td>양구읍</td><td>치킨, 돈까스</td></tr>
+                    <tr><td>9</td><td>샤브향</td><td>033-482-5633</td><td>양구읍</td><td>고기류 샤브</td></tr>
+                    <tr><td>10</td><td>소나무함흥냉면막국수</td><td>033-482-5234</td><td>양구읍</td><td>냉면</td></tr>
+                    <tr><td>11</td><td>시래정</td><td>033-481-6616</td><td>양구읍</td><td>시래기정식</td></tr>
+                    <tr><td>12</td><td>양구수산횟집</td><td>033-481-2643</td><td>양구읍</td><td>민물회,매운탕</td></tr>
+                    <tr><td>13</td><td>오래드림고원</td><td>033-481-9224</td><td>양구읍</td><td>식육</td></tr>
+                    <tr><td>14</td><td>이가돈가</td><td>033-481-1400</td><td>양구읍</td><td>숯불구이</td></tr>
+                    <tr><td>15</td><td>장수오골계</td><td>033-481-8175</td><td>양구읍</td><td>오골계구이, 탕류</td></tr>
+                    <tr><td>16</td><td>청참치</td><td>033-481-7233</td><td>양구읍</td><td>참치회, 바다회</td></tr>
+                    <tr><td>17</td><td>최가네</td><td>033-481-3338</td><td>양구읍</td><td>숯불구이</td></tr>
+                    <tr><td>18</td><td>회마을</td><td>033-481-5939</td><td>양구읍</td><td>바다회, 매운탕</td></tr>
+                </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- 9 Spots Detail Modal -->
+    <div id="spot-modal" class="modal">
+        <div class="modal-content" style="max-width: 500px;">
+            <span class="close-btn" id="close-spot-modal">&times;</span>
+            <h2 id="spot-title" style="margin-bottom: 20px;">명소 이름</h2>
+            <div style="margin-bottom: 15px;">
+                <strong style="color: var(--primary-color);">📍 주소:</strong>
+                <span id="spot-address">주소</span>
+            </div>
+            <div style="margin-bottom: 15px;">
+                <strong style="color: var(--primary-color);">📞 대표번호:</strong>
+                <span id="spot-phone">전화번호</span>
+            </div>
+            <div>
+                <strong style="color: var(--primary-color);">📖 주요 설명:</strong>
+                <p id="spot-desc" style="margin-top: 5px;">설명</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Festival Popup Modal -->
+    <div id="festival-popup" class="modal">
+        <div class="modal-content" style="max-width: 450px; text-align: center; padding: 0;">
+            <div style="background-color: var(--primary-color); padding: 20px; border-radius: 15px 15px 0 0;">
+                <h2 style="margin: 0; font-size: 1.5rem; color: #ffffff;">🎉 2026 양구 시래기 사과 축제</h2>
+            </div>
+            <div style="padding: 30px 20px;">
+                <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 15px; color: var(--text-dark);">건강한 양구의 특산물을 만나보세요!</p>
+                <p style="font-size: 1.05rem; color: #444; margin-bottom: 25px; line-height: 1.6;">
+                    <strong>기간:</strong> 2026. 10. 25(토) ~ 10. 26(일)<br>
+                    <strong>장소:</strong> 양구군 해안면 펀치볼 일원
+                </p>
+                <a href="https://ygcf.or.kr/Festival/F30000/index" target="_blank" class="btn btn-primary" style="display: inline-block; width: 100%; font-size: 1.1rem; padding: 12px 0;">자세히 보기</a>
+            </div>
+            <div style="background-color: #f1f1f1; padding: 12px 20px; border-radius: 0 0 15px 15px; display: flex; justify-content: space-between; align-items: center;">
+                <label style="cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-light);">
+                    <input type="checkbox" id="popup-dont-show" style="cursor: pointer;"> 오늘 하루 보지 않기
+                </label>
+                <button id="close-popup-btn" style="background: none; border: none; color: var(--text-color); font-weight: bold; cursor: pointer; font-size: 0.95rem;">닫기</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Action Buttons (FAB) -->
+    <div class="fab-container">
+        <a href="https://map.naver.com/v5/search/%EC%96%91%EA%B5%AC%EA%B5%B0%EC%B2%AD" target="_blank" class="fab fab-map" title="길찾기">
+            🧭
+        </a>
+        <a href="tel:033-480-2675" class="fab fab-phone" title="관광안내소 전화하기">
+            📞
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
