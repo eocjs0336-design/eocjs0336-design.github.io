@@ -240,7 +240,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 })
                 .catch((error) => {
                     console.error('EmailJS Error:', error);
-                    contactStatus.textContent = '오류가 발생하여 전송에 실패했습니다. 다시 시도해주세요. 😢';
+                    const errorMsg = error?.text || error?.message || JSON.stringify(error) || '알 수 없는 오류';
+                    contactStatus.textContent = `전송 실패: ${errorMsg} (계정 설정 및 API 키를 확인해주세요. 😢)`;
                     contactStatus.className = 'contact-status-msg error';
                 })
                 .finally(() => {
